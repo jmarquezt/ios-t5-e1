@@ -13,6 +13,7 @@
 		E05EBC7A1C58E64F007F33B4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E05EBC791C58E64F007F33B4 /* Assets.xcassets */; };
 		E05EBC7D1C58E64F007F33B4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E05EBC7B1C58E64F007F33B4 /* LaunchScreen.storyboard */; };
 		E05EBC881C58E650007F33B4 /* T5E1UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E05EBC871C58E650007F33B4 /* T5E1UITests.swift */; };
+		E0BFC74E1C5A64DB00727BED /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0BFC74D1C5A64DB00727BED /* TableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		E05EBC831C58E650007F33B4 /* T5E1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = T5E1UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E05EBC871C58E650007F33B4 /* T5E1UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = T5E1UITests.swift; sourceTree = "<group>"; };
 		E05EBC891C58E650007F33B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E0BFC74D1C5A64DB00727BED /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +85,7 @@
 				E05EBC791C58E64F007F33B4 /* Assets.xcassets */,
 				E05EBC7B1C58E64F007F33B4 /* LaunchScreen.storyboard */,
 				E05EBC7E1C58E64F007F33B4 /* Info.plist */,
+				E0BFC74D1C5A64DB00727BED /* TableViewController.swift */,
 			);
 			path = T5E1;
 			sourceTree = "<group>";
@@ -198,6 +201,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E05EBC751C58E64F007F33B4 /* ViewController.swift in Sources */,
+				E0BFC74E1C5A64DB00727BED /* TableViewController.swift in Sources */,
 				E05EBC731C58E64F007F33B4 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -388,6 +392,7 @@
 				E05EBC8E1C58E650007F33B4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E05EBC8F1C58E650007F33B4 /* Build configuration list for PBXNativeTarget "T5E1UITests" */ = {
 			isa = XCConfigurationList;
@@ -396,6 +401,7 @@
 				E05EBC911C58E650007F33B4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
